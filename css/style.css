@@ -434,9 +434,11 @@ a{
         font-size: 20px;
         line-height: 32px;
     }
+
+
 }
 
-@media (max-width: 641px){
+@media (max-width: 640px){
     .menu{
         padding: 0;
         text-align: center;
@@ -461,17 +463,13 @@ a{
     }
 
     .logo{
-        padding-top: 21vh;
+        padding-top: 21px;
     }
 
     .page-logo{
         display: block;
         z-index: 10;
         top: 22px;
-    }
-
-    .page-header{
-        height: 160vh;
     }
 
     .menu__btn{
@@ -515,6 +513,9 @@ a{
         left: 0;
     }
 
+    .page-header{
+        height: 180vh;
+    }
 }
 
 @media (max-width: 430px){
